@@ -11,4 +11,5 @@ server:
 
 destroy:
 	docker-compose down
+	docker volume rm ${current_dir_name}_reactcontainer-nodemodules
 	docker rmi docker-compose-for-react_app
