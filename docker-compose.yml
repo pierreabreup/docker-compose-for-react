@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  app:
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - '.:/usr/src/app'
+      - reactcontainer-nodemodules:/usr/local/app/node_modules
+
+volumes:
+  reactcontainer-nodemodules:
+
+networks:
+  local:
