@@ -1,12 +1,15 @@
 # What is it?
 
-This project is a react docker environment. The following tools aready installed (last release version): nodejs, curl, yarn
+This project is a react docker environment. The following tools aready installed (last release version): 
+* nodejs 
+* curl 
+* yarn
 
-# Why use it?
+# Why should you use it?
 
 First of all, it is helpful to run react and installs dependencies avoiding conflicts with other react projects. The second reason, it is to make your local machine clean
 
-# How to use?
+# How to use it?
 
 After you clone this project, follow the steps:
 - open a terminal session in your terminal tool (Iterm, Terminal, Putty)
@@ -16,7 +19,7 @@ After you clone this project, follow the steps:
 This command will run the container and open a session inside the container. If all goes well, you will be in the path ```/usr/src/app```.   In this path, you can run commands like ```yarn create react-app foo```
 
 ##### IMPORTANT!
-when you run ```make run```in the first time, the docker image will be created. In the next times, docker compose will use the image.
+when you run ```make run```at the first time, the docker image will be created. In the next times, docker compose will use the image.
 
 # Extra tools
 
